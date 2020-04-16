@@ -19,6 +19,13 @@ header {
     margin-bottom: -8px;
     margin-top: 5px;
 }
+.nav {
+    text-align: center;
+  }
+  .nav-links > a {
+    padding: 0 0.317rem;
+  }
+  
 
 h2 {
     font-family: 'Open Sans', sans-serif;
