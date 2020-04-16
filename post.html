@@ -34,19 +34,19 @@
           <span class="post-category">Career</span>
         </p>
       </header>
-
+      <img src="Images/insect-child.jpg" class="main-image" alt="Main Image" >
       <section>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iusto
+          <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iusto
           dolor rerum. Quam illum quaerat unde sapiente et? Nostrum in porro
-          laudantium maiores tempore est natus laborum ab provident nesciunt.
+          laudantium maiores tempore est natus laborum ab provident nesciunt.</b>
         </p>
 
         <p>
-          Senectus et netus et malesuada fames ac turpis. At lectus urna duis
+          <i>Senectus et netus et malesuada fames ac turpis. At lectus urna duis
           convallis convallis. Arcu non odio euismod lacinia at quis. Proin
           fermentum leo vel orci porta non. Erat pellentesque adipiscing commodo
-          elit at imperdiet dui.
+          elit at imperdiet dui.</i>
         </p>
       </section>
 
@@ -55,9 +55,9 @@
 
         <p>
           More Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          amet, libero molestiae enim ratione necessitatibus delectus debitis
+          amet. <u>libero molestiae enim ratione necessitatibus delectus debitis
           quis voluptates sapiente quam, recusandae fugiat nemo hic magni minus
-          illum iure illo.
+          illum iure illo.</u>
         </p>
           <figcaption>
             Happy swan happily swimming in a river
@@ -134,27 +134,36 @@
       </div>
     </section>
 
-    <section class="subscription-callout">
-      <h3>Subscribe to FEND-01</h3>
-      <p>
-        Get the latest posts delivered right to your inbox
-      </p>
-
-      <div class="email-field">
-        <input type="email" placeholder="Enter your email address" />
-        <button>Subscribe</button>
+    <form action="action_page.php">
+      <div class="container">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Lorem ipsum..</p>
       </div>
-    </section>
+    
+      <div class="container" style="background-color:white">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+        <label>
+          <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+        </label>
+      </div>
+    
+      <div class="container">
+        <input type="submit" value="Subscribe">
+      </div>
+    </form>
 
     <footer class="footer">
-      <a href="/" class="logo">
-        FEND-01
+      <a href="/" class="home">
+        Home
       </a>
 
-      <div class="social-links">
-        <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
-        <a href="#">Github</a>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
       </div>
     </footer>
   </body>
